@@ -1,0 +1,7 @@
+@function color($color, $map: $colors) {
+  @return map-get($map, $color);
+}
+
+@function space($space, $map: $spacings) {
+  @return map-get($map, $space);
+}

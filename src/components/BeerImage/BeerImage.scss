@@ -1,0 +1,22 @@
+@import '../../style/base.scss';
+
+.Wrapper {
+  position: relative;
+  height: 30vh;
+  overflow: hidden;
+
+  img {
+    position: relative;
+    z-index: 2;
+    object-fit: cover;
+  }
+}
+
+.Text {
+  background-color: color('secondary');
+  position: absolute;
+  z-index: 3;
+  top: calc(100% - 60px);
+  @include h800;
+  color: color(color-primary);
+}

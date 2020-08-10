@@ -1,0 +1,48 @@
+@import '../../style/base.scss';
+
+.Foo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Header {
+  @include h1;
+}
+
+.Top {
+  @include h200;
+  align-self: stretch;
+  text-align: center;
+}
+
+.Main {
+  display: grid;
+  width: 100%;
+  grid-template-rows: repeat(4, 10rem);
+  gap: 1rem;
+
+  @include atMedium {
+    grid-template-rows: repeat(2, 10rem);
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include atLarge {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 10rem;
+  }
+}
+
+.Tile {
+  @include h600;
+  border: 1px solid color('color-primary');
+  justify-self: stretch;
+  display: flex;
+  justify-content: center;
+}
+
+.Bottom {
+  @include h400;
+  margin: 2rem 0;
+}
