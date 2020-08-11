@@ -1,7 +1,5 @@
 # BAZA CSS
 
-Dokument opisuje ustalenia ze spotań frontendowych w celu uproszczenia i stworzenia nowej bazy podstawowych shared css.
-
 ## ZMIENNE
 
 - CSS4
@@ -12,26 +10,47 @@ Dokument opisuje ustalenia ze spotań frontendowych w celu uproszczenia i stworz
 
 ## CORE CSS
 
+- preferowany mobile first
+- css modules importowane jako 'styles'
 - sanitize.css
-- typografia podstawowa - naglowki, paragrafy
 
-## TYPOGRAFIA
+## TYPOGRAFIA I WYMIARY
 
-- pozbywamy się metod em/rem
 - trik z 62.5% na html.
+- typografia podstawowa - naglowki, paragrafy jako mixiny i klasy css
 
 ## BIBLIOTEKI POSTCSS
 
 - MIXINY/FUNKCJE W POSTCSS ?
 
+- postcss-initial https://github.com/maximkoretskiy/postcss-initial
+- autoprefixer https://github.com/postcss/autoprefixer
+
 ## GRID
 
-- czy potrzebujemy ?
-  https://css-tricks.com/snippets/css/complete-guide-grid/
-  https://cssgridgarden.com/
+- Jak najbardziej tak, w połączeniu z flexboxem
+
+- grid-gap, template-areas
+
+- https://css-tricks.com/snippets/css/complete-guide-grid/
+- https://cssgridgarden.com/
+
+# REACT
+
+## STRUKTURA FOLDERÓW
+
+- komponenty funkcyjne w folderze components
+- komponenty klasow w folderze containers
+
+## STATE MANAGEMENT
+
+- ui komponentów w obiekcie state
+- logika i dane w storze reduxowym
+
+## CODE SPLITTING
+
+- jak najbardziej
 
 ### KTO:
 
-MICHAŁ G - konfig postcss
-
-ADAM - zmienne
+kto chce
