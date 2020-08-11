@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const autoprefixer = require('autoprefixer');
 const postcssInitial = require('postcss-initial');
+const doIUse = require('doiuse');
 
 module.exports = {
   mode: 'development',
@@ -47,6 +48,13 @@ module.exports = {
                 autoprefixer(),
                 postcssInitial({
                   reset: 'inherited',
+                }),
+                doIUse({
+                  browsers: ['ie >= 8', '> 1%'],
+                  ignore: ['rem'],
+                  onFeatureUsage: function (
+                    usageInfo
+                  ) {},
                 }),
               ],
             },

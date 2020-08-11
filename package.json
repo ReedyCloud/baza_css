@@ -20,6 +20,7 @@
     "autoprefixer": "^9.6.5",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.2.0",
+    "doiuse": "^4.2.0",
     "file-loader": "^4.2.0",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.14.1",
