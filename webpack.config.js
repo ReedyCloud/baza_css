@@ -1,6 +1,8 @@
 const path = require('path');
-const autoprefixer = require('autoprefixer');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+const autoprefixer = require('autoprefixer');
+const postcssInitial = require('postcss-initial');
 
 module.exports = {
   mode: 'development',
@@ -41,7 +43,12 @@ module.exports = {
             loader: 'postcss-loader',
             options: {
               ident: 'postcss',
-              plugins: () => [autoprefixer()],
+              plugins: () => [
+                autoprefixer(),
+                postcssInitial({
+                  reset: 'inherited',
+                }),
+              ],
             },
           },
         ],
