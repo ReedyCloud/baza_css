@@ -1,6 +1,6 @@
 @import '../../style/base.scss';
 
-.Wrapper {
+.wrapper {
   position: relative;
   height: 30vh;
   overflow: hidden;
@@ -12,7 +12,7 @@
   }
 }
 
-.Text {
+.text {
   background-color: color('secondary');
   position: absolute;
   z-index: 3;

@@ -2,12 +2,12 @@ import React from 'react';
 
 import BeerImage from '../../assets/beer.jpg';
 
-import classes from './BeerImage.scss';
+import styles from './BeerImage.scss';
 
 const beerImage = () => (
-  <div className={classes.Wrapper}>
+  <div className={styles.wrapper}>
     <img src={BeerImage} />
-    <p className={classes.Text}>Half empty</p>
+    <p className={styles.text}>Half empty</p>
   </div>
 );
 
