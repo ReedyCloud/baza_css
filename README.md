@@ -3,9 +3,7 @@
 ## ZMIENNE
 
 - CSS4
-- plaskie zmienne np. kolory z prefixami -
-  color-brand-primary, color-apple, color-typo-text
-  font-family-primary:
+- plaskie zmienne np. dark-green, light-green, space-small
 - Zmienne i funkcje - shared - w latwy sposob importowane pomiedzy komponenty
 
 ## CORE CSS

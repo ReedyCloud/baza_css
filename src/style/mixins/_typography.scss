@@ -20,20 +20,20 @@
 
 @mixin h1 {
   @include h400;
-  margin-bottom: space(space-s);
+  margin-bottom: $space-medium;
 
   @include atMedium {
     @include h600;
-    margin-bottom: space(space-m);
+    margin-bottom: $space-medium;
   }
 
   @include atLarge {
     @include h800;
-    margin-bottom: space(space-l);
+    margin-bottom: $space-medium;
   }
 
   @include atXLarge {
     @include h1000;
-    margin-bottom: space(space-xl);
+    margin-bottom: $space-large;
   }
 }

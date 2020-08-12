@@ -21,7 +21,7 @@
   display: grid;
   width: 100%;
   grid-template-rows: repeat(4, 10rem);
-  gap: 1rem;
+  gap: $space-medium;
 
   @include atMedium {
     grid-template-rows: repeat(2, 10rem);
