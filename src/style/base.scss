@@ -1,6 +1,7 @@
 @import './variables/variables';
-@import './utilities/utilities';
 
+@import './mixins/media-query';
+@import './mixins/typography';
 * {
   margin: 0;
   padding: 0;

@@ -36,10 +36,10 @@
 
 .tile {
   @include h600;
-  border: 1px solid color('color-primary');
   justify-self: stretch;
   display: flex;
   justify-content: center;
+  border: 1px solid $dark-green;
 }
 
 .bottom {

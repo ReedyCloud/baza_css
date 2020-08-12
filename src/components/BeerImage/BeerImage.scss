@@ -13,10 +13,10 @@
 }
 
 .text {
-  background-color: color('secondary');
+  @include h800;
   position: absolute;
   z-index: 3;
   top: calc(100% - 60px);
-  @include h800;
-  color: color(color-primary);
+  color: $dark-green;
+  background-color: $light-green;
 }
