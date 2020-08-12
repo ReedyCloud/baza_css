@@ -26,7 +26,6 @@
 - postcss-initial https://github.com/maximkoretskiy/postcss-initial : minifikacja css
 - autoprefixer https://github.com/postcss/autoprefixer : auto prefixy
 - stylelint https://github.com/stylelint/stylelint
-- doiuse https://github.com/anandthakker/doiuse : caniuse w konsoli
 - postcss-utilities - przerost formy nad trescia
 - postcss-short - jw.
 
@@ -58,3 +57,8 @@
 ### KTO:
 
 kto chce
+
+# WIP
+
+https://github.com/peterramsing/lost
+https://github.com/ausi/cq-prolyfill
