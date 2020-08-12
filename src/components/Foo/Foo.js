@@ -1,20 +1,20 @@
 import React from 'react';
 
-import classes from './Foo.scss';
+import styles from './Foo.scss';
 
 const foo = () => (
-  <div className={classes.Foo}>
-    <p className={classes.Header}>
+  <div className={styles.foo}>
+    <p className={styles.header}>
       hello im header
     </p>
-    <div className={classes.Top}>Top</div>
-    <div className={classes.Main}>
-      <div className={classes.Tile}>a</div>
-      <div className={classes.Tile}>b</div>
-      <div className={classes.Tile}>c</div>
-      <div className={classes.Tile}>d</div>
+    <div className={styles.top}>Top</div>
+    <div className={styles.main}>
+      <div className={styles.tile}>a</div>
+      <div className={styles.tile}>b</div>
+      <div className={styles.tile}>c</div>
+      <div className={styles.tile}>d</div>
     </div>
-    <div className={classes.Bottom}>bottom</div>
+    <div className={styles.bottom}>bottom</div>
   </div>
 );
 

@@ -1,5 +1,0 @@
-@each $size, $value in $headings {
-  .#{$size} {
-    font-size: $value;
-  }
-}
