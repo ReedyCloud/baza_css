@@ -39,7 +39,8 @@
   justify-self: stretch;
   display: flex;
   justify-content: center;
-  border: 1px solid $dark-green;
+  border: 0.1rem solid $dark-green;
+  font-weight: $black;
 }
 
 .bottom {

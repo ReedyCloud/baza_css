@@ -16,7 +16,7 @@
   @include h800;
   position: absolute;
   z-index: 3;
-  top: calc(100% - 60px);
+  top: calc(100% - 6rem);
   color: $dark-green;
   background-color: $light-green;
 }
