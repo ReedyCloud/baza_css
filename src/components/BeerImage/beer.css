@@ -1,5 +1,6 @@
-@import "../../style/style.css";
+@import "style.css";
 
 .xD {
   @mixin foo;
+  color: $bl;
 }

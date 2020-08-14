@@ -1,11 +1,11 @@
 @import "style.css";
 
 .xD {
-  background-color: $grench;
+  background-color: $blue;
   transition: all 200ms;
 
   &:hover {
     @mixin heee;
-    background-color: $blau;
+    background-color: $grench;
   }
 }

@@ -9,8 +9,6 @@ const postcssMixins = require("postcss-mixins");
 const postcssSimpleVars = require("postcss-simple-vars");
 const postcssImport = require("postcss-import");
 
-let css = fs.readFileSync("./src/style/style.css", "utf8");
-
 module.exports = {
   mode: "development",
   entry: "./src/index.js",
@@ -55,7 +53,14 @@ module.exports = {
                 }),
                 postcssMixins(),
                 postcssNesting(),
-                postcssSimpleVars(),
+                postcssSimpleVars({
+                  silent: true,
+                  variables: () => require("./src/config/vars"),
+                  onVariables: (v) => {
+                    console.log("css vars");
+                    console.log(JSON.stringify(v, null, 1));
+                  },
+                }),
               ],
             },
           },
