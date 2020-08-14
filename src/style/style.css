@@ -1,0 +1,10 @@
+@define-mixin foo {
+  margin-left: 20px;
+}
+
+$grench: #00ff00;
+$blau: #0000ff;
+
+@define-mixin heee {
+  margin-left: 300px;
+}

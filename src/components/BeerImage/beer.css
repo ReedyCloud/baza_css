@@ -1,0 +1,5 @@
+@import "../../style/style.css";
+
+.xD {
+  @mixin foo;
+}

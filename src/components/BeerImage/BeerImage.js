@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import BeerImage from '../../assets/beer.jpg';
+import BeerImage from "../../assets/beer.jpg";
 
-import styles from './BeerImage.scss';
+import styles from "./beer.css";
 
 const beerImage = () => (
-  <div className={styles.wrapper}>
+  <div className={styles.xD}>
     <img src={BeerImage} />
-    <p className={styles.text}>Half empty</p>
+    <p>Half empty</p>
   </div>
 );
 
